@@ -125,7 +125,7 @@ section{
   top: 2%;
   left: 50%;
   transform: translateX(-50%);
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(10px);
 }
 
 @media (max-width: 42em) {
