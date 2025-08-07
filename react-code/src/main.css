@@ -84,13 +84,37 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 3.6rem;
   align-items: center;
   border: 1px solid #dee2e617;
   padding: 12.8rem;
 }
+.quote span{
+  border-radius: 80px;
+  border: 1px solid #dee2e617;
+  font-size: 1.8rem;
+  padding: .8rem 2.4rem;
+  opacity: .7;
+}
 .quote blockquote{
-  line-height: 1.5;
-  font-weight: 700;
+  line-height: 1.6;
   font-size: 2.4rem;
   text-align: center;
 }
+
+.scroll-top{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2.4rem;
+  padding: 1.2rem;
+  background-color: #ffd43b;
+  color: #4A401D;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transform: translateX(100px);
+  transition: all 800ms;
+}
+
+

@@ -13,7 +13,7 @@ const PhrasesWrapper = styled.section`
     
 */}
 
-function Quote({quoteText, pageNumber}){ 
+function Quote({quoteText, pageNumber, index}){ 
     let content
     if (pageNumber === 1){
         content = (
@@ -26,6 +26,7 @@ function Quote({quoteText, pageNumber}){
     }else{
         content = (
         <div className="quote">
+            <span>Arquivo nº {index + 1}</span>
             <blockquote>
                 {quoteText} 
             </blockquote>
@@ -43,7 +44,7 @@ function Quote({quoteText, pageNumber}){
 export default function Phrases ({list, pageNumber}){
     return (
         <PhrasesWrapper className="section-quotes container" id="phrases">
-        {list.map((item) => <Quote key={item.id} quoteText={item.text} pageNumber={pageNumber}/>)}
+        {list.map((item, itemIndex) => <Quote key={item.id} quoteText={item.text} pageNumber={pageNumber} index={itemIndex}/>)}
         </PhrasesWrapper>
     )
 }
