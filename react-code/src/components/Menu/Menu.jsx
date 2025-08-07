@@ -29,7 +29,7 @@ export default function Menu({togglePageNumber, pageNumber}){
     return (
         <MenuWrapper className="menu">
             <li>
-                <MenuButton $isActive = {pageNumber === 1} onClick={togglePageNumber}>Phrases</MenuButton>
+                <MenuButton $isActive = {pageNumber === 1} onClick={togglePageNumber}>Frases</MenuButton>
             </li>
             <li>
                 <MenuButton $isActive = {pageNumber === 2} onClick={togglePageNumber}>Reprograme seu cérebro</MenuButton>
