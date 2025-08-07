@@ -38,7 +38,7 @@ function Quote({quoteText, pageNumber}){
 
 export default function Phrases ({list, pageNumber}){
     return (
-        <PhrasesWrapper className="section-quotes container">
+        <PhrasesWrapper className="section-quotes container" id="phrases">
         {list.map((item) => <Quote key={item.id} quoteText={item.text} pageNumber={pageNumber}/>)}
         </PhrasesWrapper>
     )

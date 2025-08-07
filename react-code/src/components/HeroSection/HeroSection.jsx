@@ -50,7 +50,7 @@ export default function HeroSection({headingText, headingDescription}){
             <div className="hero-content grid grid--1-col">
                 <h1 className="heading-primary">{headingText}</h1>
                 <p className="heading-description">{headingDescription}</p>
-               <HeroButton href='#'>
+               <HeroButton href='#phrases'>
                     <p>Explore &darr;</p>
                </HeroButton>
                <HeroImg src={heroImg} alt="hand grabbing money" />
