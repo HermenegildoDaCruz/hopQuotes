@@ -44,12 +44,12 @@ const HeroImg = styled.img`
     opacity: .8;
 `
 
-export default function HeroSection(){
+export default function HeroSection({headingText, headingDescription}){
     return (
         <HeroWrapper className='section-hero container '>
             <div className="hero-content grid grid--1-col">
-                <h1 className="heading-primary">Mude sua mentalidade <br />e transforme sua realidade financeira</h1>
-                <p className="heading-description">A forma como você pensa sobre dinheiro define o quanto você terá." Aqui cada frase é uma semente de riqueza plantada na sua mente.</p>
+                <h1 className="heading-primary">{headingText}</h1>
+                <p className="heading-description">{headingDescription}</p>
                <HeroButton href='#'>
                     <p>Explore &darr;</p>
                </HeroButton>

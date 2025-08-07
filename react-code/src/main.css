@@ -76,3 +76,17 @@ section{
   height: 100vh;
 }
 
+.quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dee2e617;
+  padding: 12.8rem;
+}
+.quote blockquote{
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: center;
+}
