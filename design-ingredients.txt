@@ -1,0 +1,45 @@
+--- 01 TYPOGRAPHY SYSTEM
+
+    GEIST
+
+    -- Font sizes (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+    --Font weights
+        -Default: 500
+        -lighter: 400
+        -Semi-bold: 600
+        -Bold: 700 
+
+    --Line heights
+        -Default: 
+        -Small: 
+        -Medium: 
+        -Paragraph default: 1.5
+        -Large: 
+
+    --Letter spacing: -2px
+    
+
+--- 02 COLORS
+    -- Primary: #212529
+    --Greys: 
+        -text color: #dee2e6
+        -lighter: #f1f3f5
+    --Accents: #ffd43b
+        -darker:#4A401D
+         
+
+--- 05 SHADOWS: NO
+
+--- 06 BORDER-RADIUS
+    --Default: 
+    --Medium: 
+
+--- 08 WHITESPACE(GAP,PADDING,MARGIN)
+    --PADDING TOP/BOTTOM(SECTION): 
+        -HERO: 9.6rem
+        -DEFAULT: 8rem  
+    --Spacing system (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+

@@ -1,9 +1,11 @@
-
+import HeroSection from "./components/HeroSection/HeroSection"
 
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      <main>
+        <HeroSection></HeroSection>
+      </main>
     </>
   )
 }
