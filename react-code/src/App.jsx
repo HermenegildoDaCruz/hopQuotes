@@ -21,7 +21,7 @@ function App() {
   if (pageNumber === 1){
     heroSection = (
       <HeroSection 
-        headingText={<>Mude sua mentalidade e<br /> transforme sua realidade financeira</>} 
+        headingText={<>Mude sua mentalidade e transforme sua realidade financeira</>} 
         headingDescription="A forma como você pensa sobre dinheiro define o quanto você terá. Aqui cada frase é uma semente de riqueza plantada na sua mente."/>
     )
 

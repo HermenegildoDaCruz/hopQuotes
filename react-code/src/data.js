@@ -2,7 +2,7 @@
 export const QUOTES = [
     {
         id: 1,
-        text: "Por causa de atenção a pessoa tende a fazer coisas idiotas para consegui-la"
+        text: "A sua riqueza cresce na medida que você cresce"
     },
     {
         id: 2,
@@ -14,7 +14,9 @@ export const QUOTES = [
     },
     {
         id: 4,
-        text: "A sua riqueza cresce na medida que você cresce"
+        text: "Por causa de atenção a pessoa tende a fazer coisas idiotas para consegui-la"
+
+        
     },
     {
         id: 5,

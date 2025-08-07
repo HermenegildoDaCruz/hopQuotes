@@ -19,7 +19,7 @@ function Quote({quoteText, pageNumber, index}){
         content = (
         <div className="quote">
             <blockquote>
-                " {quoteText} "
+                {quoteText}
             </blockquote>
         </div>
     )

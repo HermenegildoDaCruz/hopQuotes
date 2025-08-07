@@ -27,12 +27,12 @@ const MenuButton = styled.button`
 
 export default function Menu({togglePageNumber, pageNumber}){
     return (
-        <MenuWrapper>
+        <MenuWrapper className="menu">
             <li>
                 <MenuButton $isActive = {pageNumber === 1} onClick={togglePageNumber}>Phrases</MenuButton>
             </li>
             <li>
-                <MenuButton $isActive = {pageNumber === 2} onClick={togglePageNumber}>Reprograme seu cerébro</MenuButton>
+                <MenuButton $isActive = {pageNumber === 2} onClick={togglePageNumber}>Reprograme seu cérebro</MenuButton>
             </li>
         </MenuWrapper>
     )
