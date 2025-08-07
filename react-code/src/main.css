@@ -121,7 +121,7 @@ section{
 
 .menu-fixed{
   position: fixed;
-  width:40rem;
+  width:80%;
   top: 2%;
   left: 50%;
   transform: translateX(-50%);
