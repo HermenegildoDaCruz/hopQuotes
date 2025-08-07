@@ -30,7 +30,7 @@ function App() {
     heroSection = (
       <HeroSection 
         headingText={<>Reprograme sua mente com esses 17 arquivos <br /> para ter sucesso financeiro  </>} 
-        headingDescription={<>Mude o seu conceito sobre dinheiro para ter sucesso financeiro, reprograme seu cerébro com essas verdades  &darr;</>}/>
+        headingDescription={<>Aprenda a pensar e agir como os ricos, aqui você saberá sobre com os ricos e pobres pensam sobre o dinheiro  &darr;</>}/>
         
     )
     

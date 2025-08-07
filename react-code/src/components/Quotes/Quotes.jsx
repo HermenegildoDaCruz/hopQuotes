@@ -18,13 +18,17 @@ function Quote({quoteText, pageNumber}){
     if (pageNumber === 1){
         content = (
         <div className="quote">
-            <blockquote>" {quoteText} "</blockquote>
+            <blockquote>
+                " {quoteText} "
+            </blockquote>
         </div>
     )
     }else{
         content = (
         <div className="quote">
-            <blockquote>" {quoteText} "</blockquote>
+            <blockquote>
+                {quoteText} 
+            </blockquote>
         </div>
     )
     }

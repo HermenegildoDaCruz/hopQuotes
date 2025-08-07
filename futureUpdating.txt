@@ -1,0 +1,4 @@
+1. Create a blog tab (page 3) que show some posts about money and mentality
+post: title, description, created date and updated date
+
+2. Save phrases in favorites (localStorage)
