@@ -27,8 +27,11 @@ section{
   border: 1px solid #dee2e617;
   padding: 8rem 0;
 }
+:focus{
+    border:none;
+    outline:none;
 
-
+}
 
 .heading-primary{
   font-size: 3.6rem;

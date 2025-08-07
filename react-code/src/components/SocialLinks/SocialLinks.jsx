@@ -1,1 +1,0 @@
-// This component must be fixed top of viewport, to show social link (github, instagram)

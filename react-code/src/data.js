@@ -13,3 +13,10 @@ export const QUOTES = [
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam at quo, iure fugit voluptates, eius quisquam aspernatur rem aliquid quasi quas, odit excepturi totam omnis! Eveniet quisquam beatae tempora!"
     }
 ]
+
+export const SUCCESS_FILES = [
+    {
+        id: 1,
+        text: " SUCESSO Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam at quo, iure fugit voluptates, eius quisquam aspernatur rem aliquid quasi quas, odit excepturi totam omnis! Eveniet quisquam beatae tempora!"
+    }
+]

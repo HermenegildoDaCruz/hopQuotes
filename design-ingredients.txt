@@ -33,8 +33,8 @@
 --- 05 SHADOWS: NO
 
 --- 06 BORDER-RADIUS
-    --Default: 
-    --Medium: 
+    --Default: 12px
+    --bigger: 80px
 
 --- 08 WHITESPACE(GAP,PADDING,MARGIN)
     --PADDING TOP/BOTTOM(SECTION): 

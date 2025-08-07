@@ -14,7 +14,6 @@ const PhrasesWrapper = styled.section`
 */}
 
 function Quote({quoteText, pageNumber}){ 
-
     let content
     if (pageNumber === 1){
         content = (
@@ -22,8 +21,13 @@ function Quote({quoteText, pageNumber}){
             <blockquote>" {quoteText} "</blockquote>
         </div>
     )
+    }else{
+        content = (
+        <div className="quote">
+            <blockquote>" {quoteText} "</blockquote>
+        </div>
+    )
     }
-    // if pageNumber === 2 use the same structure adding (<span>Arquivo n 12</span>) para os arquivos de sucesso
     return (
         <>
             {content}
@@ -35,7 +39,7 @@ function Quote({quoteText, pageNumber}){
 export default function Phrases ({list, pageNumber}){
     return (
         <PhrasesWrapper className="section-quotes container">
-        {list.map((quote) => <Quote key={quote.id} quoteText={quote.text} pageNumber={pageNumber}/>)}
+        {list.map((item) => <Quote key={item.id} quoteText={item.text} pageNumber={pageNumber}/>)}
         </PhrasesWrapper>
     )
 }
