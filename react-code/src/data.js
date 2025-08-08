@@ -24,22 +24,18 @@ export const QUOTES = [
     },
     {
         id: 6,
-        text: "Conhecimento só vale quando é aplicado"
-    },
-    {
-        id: 7,
         text: "A excelência, portanto, não é um ato, mas sim um hábito"
     },
     {
-        id: 8,
+        id: 7,
         text: "Seus pensamentos criam suas experiência de vida"
     },
     {
-        id: 9,
+        id: 8,
         text: "Por traz de cada conquista impossível há um sonhador de sonhos impossíveis"
     },
     {
-        id: 10,
+        id: 9,
         text: "Se você não sabe para aonde estás indo, acabarás em qualquer lugar!"
     },
 ]
