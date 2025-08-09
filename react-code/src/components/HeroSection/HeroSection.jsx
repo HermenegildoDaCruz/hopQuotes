@@ -1,7 +1,7 @@
 import {styled} from 'styled-components'
 import heroImg from '../../assets/img/hero-img.png'
 
-// Use to apply media queries
+
 const HeroWrapper = styled.section`
     & .hero-content{
         padding: 0rem 6.4rem;
