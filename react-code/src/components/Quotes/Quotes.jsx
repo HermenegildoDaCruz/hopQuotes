@@ -1,17 +1,9 @@
 import styled from "styled-components"
 
 
-// Apply media query here in this component
 const PhrasesWrapper = styled.section`
 
 `
-
-{/* 
-    Future updating:
-    1.Add button to store favorite quotes 
-    2. Configure prop quote (Quote component) to receive quote object to store in localstorage when a button is clicked
-    
-*/}
 
 function Quote({quoteText, pageNumber, index}){ 
     let content
